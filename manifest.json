@@ -22,10 +22,12 @@
 	},
 	"permissions":
 	[
-		"tabs", "<all_urls>"
+		"contextMenus",
+		"tabs",
+		"<all_urls>"
 	],
 	"background":
 	{
-		"scripts": ["background.js"]
+		"scripts": ["background.js", "main.js"]
 	}
 }

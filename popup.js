@@ -27,7 +27,7 @@ function getJSON(url, callback) {
 		} else {
 			var list = "";
 			for (var i = 0; i < data.length; i++) {
-				list += "<li style='display:none'> <a href='https://coinmarketcap.com/currencies/" + data[i].id + "'>" + data[i].id + "(" + data[i].symbol + ")</a></li>";
+				list += "<li style='display:none'> <a href='https://coinmarketcap.com/currencies/" + data[i].id + "'>" + data[i].id + "(" + data[i].symbol + ") " + data[i].price_btc + " BTC</a></li>";
 			}
 			document.getElementById("currencies").innerHTML = list;
 			}
