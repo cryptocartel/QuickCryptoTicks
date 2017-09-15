@@ -11,6 +11,8 @@ Chrome extension to easily lookup cryptocurrency info from coinmarketcap.com
 ## How to use:
 Simply type the name or ticker of a cryptocurrency into the text box, and a list of corresponding currencies will automatically populate below. Click on the currency to open the corresponding coinmarketcap.com page in a new tab.
 
+To lookup tags on a page, simply highlight the ticker and right click. You will see an option that says Quick Crypto Ticks, and then two more options. Select Cashtag if you are selecting a ticker on twitter with either a # or $ tag (eg: $BTC or #BTC, or the second option if it is just the plain text ticker (eg: BTC or LTC). If there is more than 1 coin with the same ticker, each coin will be opened in a new tab.
+
 ## Features:
 Right now this is an incredibly simple and not very pretty extension, soley for making it easier to lookup coins on coinmarketcap.com without leaving the page. Working on adding more features currently.
 
