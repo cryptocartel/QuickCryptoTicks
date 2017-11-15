@@ -15,7 +15,7 @@ function getJSON(url, callback) {
 }
 
     search = function(word){
-      getJSON('https://api.coinmarketcap.com/v1/ticker/',
+      getJSON('https://api.coinmarketcap.com/v1/ticker/?limit=0',
       function(err, data) {
         if (err != null) {
           console.log('Something went wrong: ' + err);
